@@ -26,7 +26,7 @@ const AddContact = ({ addNewContact }) => {
         <label htmlFor="newContactNumber">Telefonski broj:</label>
         <input type="text" id="newContactNumber" name="newContactNumber" onChange={handleInputChange} value={newContactNumber} required />
       </p>
-      <button type="submit">Dodaj</button>
+      <button type="submit" className="btn btn-success" >Dodaj</button>
     </form>
   );
 };
